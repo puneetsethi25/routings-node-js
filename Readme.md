@@ -1,6 +1,6 @@
 # attainU
 
-Very Simple server for search related APIs 
+Very Simple server for search related APIs. Includes data import validations
 
 ## Run
 
