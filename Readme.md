@@ -10,14 +10,14 @@ npm start
 ```
 ##### Import Seed data by making a GET request at this API endpoint
 ```
-GET /seed
+GET /api/seed
 ```
 
 ## API Usage
 
 ```
 get all states from database with their corresponding cities
-GET /states
+GET /api/states
 Response:
 {
  "success": true,
@@ -36,7 +36,7 @@ Response:
 }
 
 Get all states along with cities matching a keyword
-GET /states?search=guj
+GET /api/states?search=guj
 Response:
 {
  "success": true,
@@ -55,7 +55,7 @@ Response:
 
 
 Get all cities from the database
-GET /cities
+GET /api/cities
 Response:
 {
  "success": true,
@@ -78,7 +78,7 @@ Response:
 }
 
 Get all cities matching the keyword
-GET /cities?search=mum
+GET /api/cities?search=mum
 Response:
 {
     "success": true,
