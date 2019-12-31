@@ -6,6 +6,7 @@ Very Simple server for search related APIs
 
 ```bash
 npm install
+npm start
 ```
 ##### Import Seed data by making a GET request at this API endpoint
 ```
