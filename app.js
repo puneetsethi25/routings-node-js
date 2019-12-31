@@ -38,7 +38,7 @@ app.get('/states', function (req, res) {
 
 app.get('/cities', function (req, res) {
   var query = {};
-  var select = {cities:1, _id: 0};
+  var select = {cities:1, _id: 0, state: 1};
   if(req.query.hasOwnProperty('search') && req.query.search){
     query = { cities: new RegExp(req.query.search, 'i') };
     select = {state: 1, 'cities.$':1, _id: 0};
